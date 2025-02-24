@@ -13,7 +13,7 @@ def greet_to(your_name: str) -> None:
         your_name (str): _description_
     """
     greet = build_greet_message(your_name=your_name)
-    cowsay.cow(greet)
+    print(cowsay.get_output_string(text=greet, char="cow"))
 
 
 def greet_from_env() -> None:
@@ -23,4 +23,4 @@ def greet_from_env() -> None:
         your_name (str): _description_
     """
     greet = build_default_greet_message_from_env()
-    cowsay.cow(greet)
+    print(cowsay.get_output_string(text=greet, char="cow"))
