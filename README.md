@@ -1,7 +1,8 @@
-![badge](https://img.shields.io/badge/Python-white?logo=python)
-![badge](https://img.shields.io/badge/preset-red)
-[![badge](https://img.shields.io/badge/Package_manager-uv-8A2BE2)](https://docs.astral.sh/uv/)
-![badge](https://img.shields.io/badge/Linter-Ruff-yellow)[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Yoshida24/preset-python-uv)
+![badge](https://img.shields.io/badge/Python-white?logo=python) 
+![badge](https://img.shields.io/badge/preset-red) 
+[![badge](https://img.shields.io/badge/Package_manager-uv-8A2BE2)](https://docs.astral.sh/uv/) ![badge](https://img.shields.io/badge/Linter-Ruff-yellow)
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Yoshida24/preset-python-uv)
 
 # preset-python-uv-vscode
 
@@ -15,7 +16,6 @@ Preset for develop Python app by `uv`.
 
 ## Usage
 
-depends on:
 - Python: 3.12
 - uv: 0.6.2
 - OS and Device: M1 Macbook Air Sequoia 15.3.1
@@ -27,12 +27,6 @@ Install `uv`:
 ```bash
 curl -LsSf https://astral.sh/uv/install.sh | sh
 echo 'eval "$(uv generate-shell-completion zsh)"' >> ~/.zshrc
-```
-
-Upgrade `uv`:
-
-```bash
-uv self update
 ```
 
 ## Gettig Started
@@ -96,4 +90,10 @@ Pin python version:
 
 ```bash
 uv python pin 3.12
+```
+
+Update `uv`:
+
+```bash
+uv self update
 ```
