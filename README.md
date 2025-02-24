@@ -1,8 +1,11 @@
+![badge](https://img.shields.io/badge/Python-white?logo=python)
+![badge](https://img.shields.io/badge/preset-red)
+[![badge](https://img.shields.io/badge/Package_manager-uv-8A2BE2)](https://docs.astral.sh/uv/)
+![badge](https://img.shields.io/badge/Linter-Ruff-yellow)[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Yoshida24/preset-python-uv)
+
 # preset-python-uv-vscode
 
 Preset for develop Python app by `uv`.
-
-> ref.
 
 ## Included
 - Auto format on save by ruff
