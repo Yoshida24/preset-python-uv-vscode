@@ -20,5 +20,5 @@ def build_default_greet_message_from_env() -> str:
     Returns:
         str: _description_
     """
-    your_name = os.environ.get("YOUR_DEFAULT_NAME")
+    your_name = os.environ.get("YOUR_ENV")
     return f"Hello, {your_name}!"

@@ -42,7 +42,7 @@ To use environment variables in `.env` file, run below script to create `.env`
 
 ```bash
 if [ ! -f .env ]; then
-    cp .env.sample .env
+    cp .env.tmpl .env
     echo 'Info: .env file has successfully created. Please rewrite .env file'
 else
     echo 'Info: Skip to create .env file. Because it is already exists.'
@@ -55,6 +55,19 @@ Now you can run script:
 # load environment variables from .env to your shell.
 set -a && source ./.env && set +a
 make run
+```
+
+```bash
+  ____________
+| Hello, Alan! |
+  ============
+            \
+             \
+               ^__^
+               (oo)\_______
+               (__)\       )\/\
+                   ||----w |
+                   ||     ||
 ```
 
 > **Note**
